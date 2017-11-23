@@ -1,0 +1,244 @@
+/* reset */
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+p,
+blockquote,
+pre,
+hr,
+figure,
+table,
+caption,
+th,
+td,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+menu {
+  margin: 0;
+  padding: 0;
+}
+header,
+footer,
+section,
+article,
+aside,
+nav,
+hgroup,
+address,
+figure,
+figcaption,
+menu,
+details {
+  display: block;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+caption,
+th {
+  text-align: left;
+  font-weight: normal;
+}
+html,
+body,
+fieldset,
+img,
+iframe,
+abbr {
+  border: 0;
+}
+i,
+cite,
+em,
+var,
+address,
+dfn {
+  font-style: normal;
+}
+[hidefocus],
+summary {
+  outline: 0;
+}
+li {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+small {
+  font-size: 100%;
+}
+sup,
+sub {
+  font-size: 83%;
+}
+pre,
+code,
+kbd,
+samp {
+  font-family: inherit;
+}
+q:before,
+q:after {
+  content: none;
+}
+textarea {
+  overflow: auto;
+  resize: none;
+}
+label,
+summary {
+  cursor: default;
+}
+a,
+button {
+  cursor: pointer;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+em,
+strong,
+b {
+  font-weight: bold;
+}
+del,
+ins,
+u,
+s,
+a,
+a:hover {
+  text-decoration: none;
+}
+body,
+textarea,
+input,
+button,
+select,
+keygen,
+legend {
+  font: 12px/1.14 arial;
+  color: #333;
+  outline: 0;
+}
+body {
+  background: #fff;
+  font-family: "Microsoft YaHei";
+}
+a,
+a:hover {
+  color: #333;
+}
+@media screen and (width: 320px) {
+  html {
+    font-size: 16px;
+  }
+}
+@media screen and (width: 360px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media screen and (width: 375px) {
+  html {
+    font-size: calc(18.75px);
+  }
+}
+.kh-header {
+  width: 100%;
+  height: 2.75rem;
+  background-color: #ff9b25;
+}
+.kh-header i {
+  position: absolute;
+  top: 0.875rem;
+  left: 0.625rem;
+  width: 0.6875rem;
+  height: 1rem;
+  background-image: url("../images/back.png");
+  background-size: 0.6875rem 1rem;
+}
+.kh-header span {
+  font-size: 1rem;
+  line-height: 2.75rem;
+  margin-left: 1.75rem;
+  color: #ffffff;
+}
+main {
+  width: 100%;
+  padding: 0 0.75rem;
+  box-sizing: border-box;
+}
+main .all-top {
+  height: 2.5rem;
+  width: 100%;
+  overflow: hidden;
+}
+main .all-top h4 {
+  float: left;
+  font-size: 0.875rem;
+  color: #000000;
+  line-height: 2.5rem;
+  font-weight: normal;
+}
+main .all-top span {
+  float: right;
+  font-size: 0.875rem;
+  color: #888888;
+  line-height: 2.5rem;
+}
+main .all-bottom {
+  margin-top: 0.09375rem;
+  width: 100%;
+  height: 7rem;
+  border: 3px dashed #dedede;
+  box-sizing: border-box;
+  text-align: center;
+}
+main .all-bottom i {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.125rem;
+  width: 3.25rem;
+  height: 3.25rem;
+  background-image: url("../images/add.png");
+  background-size: 3.25rem 3.25rem;
+}
+main .all-bottom span {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 0.8125rem;
+  color: #aeaeae;
+}
+main .tips {
+  margin-top: 3.8125rem;
+  color: #aeaeae;
+}
+main .tips p {
+  line-height: 1.25rem;
+  font-size: 0.75rem;
+}
